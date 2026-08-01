@@ -1,7 +1,28 @@
 aid: s4s-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/s4s-technologies.png
 name: S4S Technologies
-description: S4S Technologies is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  S4S Technologies operates what it describes as India's only full-stack food
+  processing platform, running tech-driven farm-gate procurement and processing
+  for the food and beverage industry. The company sources fresh produce from
+  farmers through Village Level Collection Centres, processes it through
+  climate-clean micro food-processing units, and supplies convenience-driven
+  ingredients (fruits, vegetables, pulses, grains, and spices) to more than
+  1,100 food and beverage customers. It is a B2B agritech and food-supply-chain
+  business rather than a software or API provider; no public developer portal,
+  API documentation, SDKs, or machine-readable API surface was found during
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/s4s-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food Processing
+- Agritech
+- Food and Beverage
+- Supply Chain
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/s4s-technologies-domain-security.yml
 - type: Website
   url: https://s4stechnologies.com/
+- type: About
+  url: https://s4stechnologies.com/about-us/
+- type: Products
+  url: https://s4stechnologies.com/products/
+- type: Careers
+  url: https://s4stechnologies.com/careers/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
